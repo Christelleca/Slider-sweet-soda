@@ -183,3 +183,17 @@
 .bg-box .bg:nth-child(4) {
     background: #e9a5b2;
 }
+
+@media (max-width: 375px) {
+    .info-slider .info-item {
+        margin: 25px;
+        font-size: x-small;
+    }
+    .large-text h2 {
+        display: none;
+    }
+    .navigation span {
+        width: 50px;
+        height: 50px;
+    }
+}
